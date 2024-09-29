@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Eraserrotation', 'GlueStickrotation', 'Mechanical Pencilrotation', 'PaperCliprotation', 'Pencil Caserotation', 'Pencilrotation']
+
+roboflow:
+  workspace: yolov5-hmok4
+  project: yolov5-ppllk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5-hmok4/yolov5-ppllk/dataset/3
